@@ -1,0 +1,64 @@
+doctype  html
+html(lang='en')
+    head
+        // Required meta tags
+        meta(charset='UTF-8')
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name='description', content='amellplate theme tempalte')
+        meta(name='author', content='NDT')
+        meta(name='keywords', content='amellplate theme template')
+        |
+        |
+        // Title Page
+        block title
+        |
+        |
+        // Fontfaces CSS
+        link(href='css/theme-fonts.css' rel='stylesheet' media='all')
+        link(href='vendor/font-awesome/css/font-awesome.min.css' rel='stylesheet' media='all')
+        |
+        |
+        // Bootstrap CSS
+        link(href='vendor/bootstrap/bootstrap.min.css' rel='stylesheet' media='all')
+        |
+        |
+        // Vendor CSS
+        link(href='vendor/animate.css/animate.min.css' rel='stylesheet' media='all')
+        link(href='vendor/css-hamburgers/hamburgers.min.css' rel='stylesheet' media='all')
+        link(href='vendor/owl.carousel/owl.carousel.min.css' rel='stylesheet' media='all')
+        link(href='vendor/animsition/animsition.min.css' rel='stylesheet' media='all')
+        block style
+        |
+        |
+        // Main CSS
+        link(href='css/main.css' rel='stylesheet' media='all')
+        |
+        |
+        //Favicons
+        link(rel='shortcut icon' href='favicon.png')
+        link(rel='apple-touch-icon' href='apple-icon.png')
+        link(rel='apple-touch-icon' sizes='72x72', href='apple-icon-72x72.png')
+        link(rel='apple-touch-icon' sizes='114x114', href='apple-icon-114x114.png')
+
+    body
+        // page Load
+        .animsition
+            block content
+            |
+            |
+            // Jquery JS
+            script(src='vendor/jquery/jquery.min.js')
+            // Bootstrap JS
+            script(src='vendor/bootstrap/bootstrap.min.js')
+            // Vendor JS
+            script(src='vendor/owl.carousel/owl.carousel.min.js')
+            script(src="vendor/animsition/animsition.min.js")
+            block script
+            |
+            |
+            // Main JS
+            script(src='js/main.js')
+            |
+            |
+        // end page load
+// end document

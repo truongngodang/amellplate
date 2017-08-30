@@ -1,0 +1,44 @@
+doctype  html
+html(lang='en')
+    head
+        // Required meta tags
+        meta(charset='UTF-8')
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(name='description', content='amellplate theme tempalte')
+        meta(name='author', content='NDT')
+        meta(name='keywords', content='amellplate theme template')
+        |
+        |
+        // Title Page
+        block title
+        |
+        |
+        block style
+        |
+        |
+        // All CSS
+        link(href='css/compressed.css' rel='stylesheet' media='all')
+        |
+        |
+        //Favicons
+        link(rel='shortcut icon' href='favicon.png')
+        link(rel='apple-touch-icon' href='apple-icon.png')
+        link(rel='apple-touch-icon' sizes='72x72', href='apple-icon-72x72.png')
+        link(rel='apple-touch-icon' sizes='114x114', href='apple-icon-114x114.png')
+
+    body
+        // page Load
+        .animsition
+            block content
+            |
+            |
+            // All JS
+            script(src='js/compressed.js')
+            |
+            |
+            // Vendor JS
+            block script
+            |
+            |
+        // end page load
+// end document

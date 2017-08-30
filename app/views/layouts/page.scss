@@ -1,0 +1,21 @@
+/*Body, HTML*/
+
+body {
+    font-family: $primary-font;
+    font-weight: $regular;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    color: #555555;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+@include media-breakpoint-up(xl) {
+    .container {
+        width: 1200px;
+    }
+}

@@ -1,0 +1,57 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  Amellplate
+Version:	1.0
+Last change:	23/03/2017 [Add Define a table of contents Link]
+Assigned to:	NDT
+Primary use:	Company
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[LAYOUT]
+
+* body
+    + Header / header
+	+ Page Content / .page-content .name-page
+        + Section Layouts / section .name-section
+        ...
+	+ Footer / footer
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+# [Color codes]
+
+# Text Color (text): #666666
+# Text Color Deep (Text, title): #333333
+# Primary Color 01(Link):  #d0c194
+# Primary Color 02(Link):   #af7746
+# Primary Color 03(Link):  #f7b527
+
+------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy:		16px/1.6 'Poppins', Arial, "Helvetica Neue", sans-serif;
+Heading Section:	36px/1.6 'Allura', cursive; 36px/1.6 'Poppins', Arial, "Helvetica Neue", sans-serif;
+Input, textarea:	14px/1.6 'Poppins', Arial, "Helvetica Neue", sans-serif;
+Title:	18px/1.6 'Poppins', Arial, "Helvetica Neue", sans-serif;
+
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+-------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------*/
+/*                   INCLUDE FILE                      */
+/*-----------------------------------------------------*/
+
+/*    Init variables and mixins    */
+@import "core/*";
+
+/*    Include all sass of components general    */
+@import "../views/base/**/*.scss";
+@import "../views/components/**/*.scss";
+@import "../views/layouts/**/*.scss";

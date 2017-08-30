@@ -1,0 +1,46 @@
+{
+  "name": "amellplate",
+  "version": "1.0.0",
+  "description": "Frontend Ultimate Template",
+  "main": "index.pug",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongngodang/amellplate.git"
+  },
+  "keywords": [
+    "Frontend",
+    "template",
+    "Gulp",
+    "Pug",
+    "Sass"
+  ],
+  "author": "Ngo Dang Truong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truongngodang/amellplate/issues"
+  },
+  "homepage": "https://github.com/truongngodang/amellplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-include": "^2.3.1",
+    "gulp-merge-json": "^1.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-sequence": "^0.4.6",
+    "gulp-w3cjs": "^1.3.0",
+    "gulp-yaml": "^1.0.1"
+  }
+}
