@@ -45,13 +45,21 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 
 
 /*-----------------------------------------------------*/
-/*                   INCLUDE FILE                      */
+/*                   ALL STYLES                        */
 /*-----------------------------------------------------*/
 
-/*    Init variables and mixins    */
-@import "core/*";
+@import "../views/define/variables";
+@import "../views/define/mixins";
 
-/*    Include all sass of components general    */
-@import "../views/base/**/*.scss";
+/*-----------------------------------------------------*/
+/*                   UTILITIS                          */
+/*-----------------------------------------------------*/
+@import "../views/utilitis/*.scss";
+/*-----------------------------------------------------*/
+/*                   COMPONENTS                        */
+/*-----------------------------------------------------*/
 @import "../views/components/**/*.scss";
-@import "../views/layouts/**/*.scss";
+/*-----------------------------------------------------*/
+/*                   LAYOUTS                           */
+/*-----------------------------------------------------*/
+@import "../views/layouts/*.scss";

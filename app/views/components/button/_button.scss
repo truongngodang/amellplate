@@ -1,0 +1,17 @@
+/* #Button Styles */
+
+.base-btn {
+    border: none;
+    line-height: 1;
+    background: #555;
+    padding: 10px 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    transition: $fast;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        transition: $fast;
+    }
+}

@@ -148,7 +148,7 @@ const AUTOPREFIXER_BROWSERS = [
     'bb >= 1'
 ];
 
-gulp.task('build-css', function () {
+gulp.task('css-build', function () {
     return gulp
         .src('app/css/*.scss')
         .pipe(plumber())
@@ -170,7 +170,7 @@ gulp.task('build-css', function () {
         .pipe(reload({stream: true}));
 });
 
-gulp.task('styles-export', function () {
+gulp.task('css-export', function () {
     return gulp
         .src('app/css/*.scss')
         .pipe(sassGlob())
@@ -190,7 +190,7 @@ gulp.task('styles-export', function () {
         .pipe(gulp.dest('dist/compress/.temp/css'));
 });
 
-gulp.task("compress-css", function() {
+gulp.task("css-compress", function() {
     gulp.src("app/css/compressed.css")
         .pipe(include({
             hardFail: true,

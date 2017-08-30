@@ -1,0 +1,64 @@
+/* #Helper class */
+.show {
+    display: block !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.h-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+    }
+}
+
+.v-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+@for $i from 0 through 50 {
+    $p : 0;
+    @if ($i == 0) {
+        $p: $i;
+    } @else {
+        $p: $i*5;
+    }
+
+    .p-b-#{$p} {
+        padding-bottom: $p+px;
+    }
+    .p-t-#{$p} {
+        padding-top: $p+px;
+    }
+    .p-r-#{$p} {
+        padding-right: $p+px;
+    }
+    .p-l-#{$p} {
+        padding-left: $p+px;
+    }
+    .m-b-#{$p} {
+        margin-bottom: $p+px;
+    }
+    .m-t-#{$p} {
+        margin-top: $p+px;
+    }
+    .m-r-#{$p} {
+        margin-right: $p+px;
+    }
+    .m-l-#{$p} {
+        margin-left: $p+px;
+    }
+    .m-#{$p} {
+        margin: $p+px;
+    }
+    .p-#{$p} {
+        padding: $p+px;
+    }
+}
